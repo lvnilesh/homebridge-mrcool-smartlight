@@ -1,0 +1,29 @@
+# Node / TypeScript build artifacts
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# IDE/editor junk
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Environment / local config
+.env
+.env.*
+
+# Coverage / test output
+coverage/
+.nyc_output/
+
+# Misc
+.tmp/
+.temp/
